@@ -1,0 +1,14 @@
+server:
+  port:8090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/university?createDatabaseIfNotExist=true
+    username: root
+    password: 27940
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+
